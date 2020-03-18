@@ -1,0 +1,48 @@
+﻿<!--  Free Public License 1.0.0 Permission to use, copy, modify, and/or distribute this code for any purpose with or without fee is hereby granted.  -->
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--#region Colors-->
+    <StaticResource x:Key="AccentButtonBackgroundPressed" ResourceKey="SystemAccentColor" />
+    <StaticResource x:Key="AccentButtonBackgroundDisabled" ResourceKey="SystemAccentColorDark1" />
+    <StaticResource x:Key="AccentButtonForegroundDisabled" ResourceKey="SystemControlForegroundBaseMediumHighBrush" />
+    <!--#endregion-->
+
+    <!--#region Textbox props-->
+    <StaticResource x:Key="TextControlBackground" ResourceKey="SystemControlBackgroundBaseHighBrush" />
+    <StaticResource x:Key="TextControlBackgroundPointerOver" ResourceKey="SystemControlBackgroundBaseHighBrush" />
+    <StaticResource x:Key="TextControlBackgroundFocused" ResourceKey="SystemControlBackgroundChromeWhiteBrush" />
+    <!--#endregion-->
+
+    <!--#region Combobox props-->
+    <Thickness x:Key="ComboBoxBorderThemeThickness">1</Thickness>
+    <Thickness x:Key="ComboBoxHeaderThemeMargin">0</Thickness>
+    <StaticResource x:Key="ComboBoxBackground" ResourceKey="TextControlBackground" />
+    <StaticResource x:Key="ComboBoxBackgroundPointerOver" ResourceKey="TextControlBackgroundPointerOver" />
+    <StaticResource x:Key="ComboBoxBackgroundPressed" ResourceKey="TextControlBackground" />
+
+    <StaticResource x:Key="ComboBoxPlaceHolderForeground" ResourceKey="TextControlPlaceholderForeground" />
+    <!--#endregion-->
+
+    <!--#region Resources for CalendarDatePicker-->
+    <StaticResource x:Key="CalendarDatePickerBackground" ResourceKey="TextControlBackground" />
+    <StaticResource x:Key="CalendarDatePickerBackgroundPointerOver" ResourceKey="TextControlBackgroundPointerOver" />
+    <StaticResource x:Key="CalendarDatePickerBackgroundPressed" ResourceKey="TextControlBackground" />
+    <!--#endregion-->
+
+    <!--#region  Resources for Windows.UI.Xaml.Controls.Primitives.ToggleButton-->
+
+    <StaticResource x:Key="ToggleButtonBackground" ResourceKey="SystemAccentColor" />
+    <StaticResource x:Key="ToggleButtonForegroundDisabled" ResourceKey="SystemControlForegroundBaseMediumHighBrush" />
+    <StaticResource x:Key="ToggleButtonBackgroundPointerOver" ResourceKey="SystemAccentColor" />
+    <StaticResource x:Key="ToggleButtonBackgroundPressed" ResourceKey="SystemAccentColor" />
+    <StaticResource x:Key="ToggleButtonBackgroundDisabled" ResourceKey="SystemAccentColorDark1" />
+    <StaticResource x:Key="ToggleButtonBackgroundChecked" ResourceKey="SystemAccentColorDark2" />
+    <StaticResource x:Key="ToggleButtonBackgroundCheckedPointerOver" ResourceKey="SystemAccentColorDark2" />
+    <StaticResource x:Key="ToggleButtonBackgroundCheckedPressed" ResourceKey="SystemAccentColorDark2" />
+    <StaticResource x:Key="ToggleButtonBackgroundCheckedDisabled" ResourceKey="SystemAccentColorDark1" />
+    <StaticResource x:Key="ToggleButtonBackgroundIndeterminate" ResourceKey="SystemAccentColorDark3" />
+    <StaticResource x:Key="ToggleButtonBackgroundIndeterminatePointerOver" ResourceKey="SystemAccentColorDark3" />
+    <StaticResource x:Key="ToggleButtonBackgroundIndeterminatePressed" ResourceKey="SystemAccentColorDark3" />
+    <StaticResource x:Key="ToggleButtonBackgroundIndeterminateDisabled" ResourceKey="SystemAccentColorDark1" />
+    <!--#endregion-->
+</ResourceDictionary>

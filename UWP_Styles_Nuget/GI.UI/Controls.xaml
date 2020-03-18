@@ -1,0 +1,11 @@
+﻿<!--  Free Public License 1.0.0 Permission to use, copy, modify, and/or distribute this code for any purpose with or without fee is hereby granted.  -->
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--  Default style for Windows.UI.Xaml.Controls.TextBox  -->
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="TextBoxStyle.xaml" />
+        <ResourceDictionary Source="ComboBoxStyle.xaml" />
+        <ResourceDictionary Source="AutoSuggestBoxStyle.xaml" />
+        <ResourceDictionary Source="DateTimePickers.xaml" />
+        <ResourceDictionary Source="RadioButtonStyle.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>

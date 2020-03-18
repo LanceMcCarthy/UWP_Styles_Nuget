@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>GI.UI</id>
+    <version>0.0.16</version>
+    <title>GI.UI</title>
+    <authors>Touseef</authors>
+    <owners>Touseef</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <description>GI standard styles and themes</description>
+    <releaseNotes>First Release.</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>UI UWP</tags>
+  </metadata>
+
+  <files>
+    <!-- WinMd and IntelliSense files -->
+    <file src="bin\Release\GI.UI.winmd" target="lib\uap10.0"/>
+    <file src="bin\Release\GI.UI.xml" target="lib\uap10.0"/>
+
+    <!-- XAML controls -->
+    <file src="MarginAndPaddings.xaml" target="lib\uap10.0"/>
+    <file src="RadioButtonStyle.xaml" target="lib\uap10.0"/>
+    <file src="AutoSuggestBoxStyle.xaml" target="lib\uap10.0"/>
+    <file src="ComboBoxStyle.xaml" target="lib\uap10.0"/>
+    <file src="DateTimePickers.xaml" target="lib\uap10.0"/>
+    <file src="TextBoxStyle.xaml" target="lib\uap10.0"/>
+    <file src="Controls.xaml" target="lib\uap10.0"/>
+    <file src="ThemeOverride.xaml" target="lib\uap10.0"/>
+    <file src="Themes.xaml" target="lib\uap10.0"/>
+
+    <file src="bin\Release\GI.UI.winmd" target="runtimes\win10-x86"/>
+    <file src="bin\Release\GI.UI.pri" target="runtimes\win10-x86"/>
+  </files>
+</package>
