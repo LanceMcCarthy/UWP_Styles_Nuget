@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>GI.UI</id>
-    <version>0.0.16</version>
+    <version>0.0.18</version>
     <title>GI.UI</title>
     <authors>Touseef</authors>
     <owners>Touseef</owners>
@@ -29,6 +29,36 @@
     <file src="Controls.xaml" target="lib\uap10.0"/>
     <file src="ThemeOverride.xaml" target="lib\uap10.0"/>
     <file src="Themes.xaml" target="lib\uap10.0"/>
+
+    <file src="MarginAndPaddings.xaml" target="runtimes\win10-x86"/>
+    <file src="RadioButtonStyle.xaml" target="runtimes\win10-x86"/>
+    <file src="AutoSuggestBoxStyle.xaml" target="runtimes\win10-x86"/>
+    <file src="ComboBoxStyle.xaml" target="runtimes\win10-x86"/>
+    <file src="DateTimePickers.xaml" target="runtimes\win10-x86"/>
+    <file src="TextBoxStyle.xaml" target="runtimes\win10-x86"/>
+    <file src="Controls.xaml" target="runtimes\win10-x86"/>
+    <file src="ThemeOverride.xaml" target="runtimes\win10-x86"/>
+    <file src="Themes.xaml" target="runtimes\win10-x86"/>
+    
+    <file src="obj\Release\MarginAndPaddings.xbf" target="lib\uap10.0"/>
+    <file src="obj\Release\RadioButtonStyle.xbf" target="lib\uap10.0"/>
+    <file src="obj\Release\AutoSuggestBoxStyle.xbf" target="lib\uap10.0"/>
+    <file src="obj\Release\ComboBoxStyle.xbf" target="lib\uap10.0"/>
+    <file src="obj\Release\DateTimePickers.xbf" target="lib\uap10.0"/>
+    <file src="obj\Release\TextBoxStyle.xbf" target="lib\uap10.0"/>
+    <file src="obj\Release\Controls.xbf" target="lib\uap10.0"/>
+    <file src="obj\Release\ThemeOverride.xbf" target="lib\uap10.0"/>
+    <file src="obj\Release\Themes.xbf" target="lib\uap10.0"/>
+    
+    <file src="obj\Release\MarginAndPaddings.xbf" target="runtimes\win10-x86"/>
+    <file src="obj\Release\RadioButtonStyle.xbf" target="runtimes\win10-x86"/>
+    <file src="obj\Release\AutoSuggestBoxStyle.xbf" target="runtimes\win10-x86"/>
+    <file src="obj\Release\ComboBoxStyle.xbf" target="runtimes\win10-x86"/>
+    <file src="obj\Release\DateTimePickers.xbf" target="runtimes\win10-x86"/>
+    <file src="obj\Release\TextBoxStyle.xbf" target="runtimes\win10-x86"/>
+    <file src="obj\Release\Controls.xbf" target="runtimes\win10-x86"/>
+    <file src="obj\Release\ThemeOverride.xbf" target="runtimes\win10-x86"/>
+    <file src="obj\Release\Themes.xbf" target="runtimes\win10-x86"/>
 
     <file src="bin\Release\GI.UI.winmd" target="runtimes\win10-x86"/>
     <file src="bin\Release\GI.UI.pri" target="runtimes\win10-x86"/>

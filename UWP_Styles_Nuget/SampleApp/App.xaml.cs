@@ -19,7 +19,7 @@ namespace SampleApp
         public App()
         {
             InitializeComponent();
-            Suspending += OnSuspending;
+            Suspending += OnSuspending;            
         }
 
         /// <summary>
